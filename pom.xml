@@ -21,4 +21,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>packages</id>
+            <name>packages</name>
+            <url> http://51.250.83.31:8081/repository/maven_packages/</url>
+        </repository>
+    </distributionManagement>
 </project>
